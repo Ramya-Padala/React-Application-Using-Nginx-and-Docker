@@ -46,7 +46,7 @@ pipeline {
         sh 'sleep 5 && curl -f http://localhost:8081'
     }
 }
-
+    }
     post {
         success {
             echo 'React application deployed successfully!'
